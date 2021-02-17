@@ -15,7 +15,6 @@ public class UpdatePaymentCardRequest extends AbstractRequest {
         this.setCardExpiryMonth(cardExpiryMonth);
         this.setCardExpiryYear(cardExpiryYear);
         this.setCardHolder(cardHolder);
-        this.setSecurityCode(null);
     }
 
     public UpdatePaymentCardRequest(String token, String requestId, String cardExpiryMonth, String cardExpiryYear, String cardHolder, String securityCode) {
