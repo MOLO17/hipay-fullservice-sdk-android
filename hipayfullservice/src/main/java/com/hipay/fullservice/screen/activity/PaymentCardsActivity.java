@@ -213,7 +213,7 @@ public class PaymentCardsActivity extends PaymentScreenActivity implements Payme
                 } break;
 
                 case FormActionQuit: {
-                    //Do nothing
+                    finish();
                 } break;
 
                 // this never happens for now
